@@ -4,7 +4,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons"
 
 const OneJobs = ({company,duration,duties,title}) => {
   return (
-    <article>
+    <article className="p-6">
         <p className='text-2xl'>{title}</p>
         <span className='my-1 px-1 rounded-md bg-slate-300'>{company}</span>
         <p className='text-slate-400'>{duration}</p>
